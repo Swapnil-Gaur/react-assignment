@@ -1,0 +1,191 @@
+
+.F1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(235, 235, 126, 0.789);
+    padding: 10px 20px;
+}
+.F2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px 50px;
+    column-gap: 40px;
+}
+.F21{
+    display: flex;
+    flex-direction: column;
+}
+.F21 >h1{
+    color: rgb(241, 241, 81);
+    font-size: 3.2rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.F21>p{
+    color: white;
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.F22{
+    display: flex;
+    flex-direction: row;
+}
+.F23{
+    display: flex;
+    flex-direction: column;
+}
+.F23 > label{
+    color: gray;
+    font-size: 1.5rem;
+}
+.F23 > input {
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 300px;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+}
+.F24{
+    background-color: rgb(251, 192, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 30px auto 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.F23 >input:focus{
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.F4{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px; 
+    margin:30px 40px;
+    max-width: 1500px;
+}
+.F41{
+    display: flex;
+    flex-direction: column;
+    border-right: 1.4px solid rgb(211, 161, 22);
+    margin-right: 15px;
+}
+.F42{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+.F45{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.F61{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.F612{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 161, 22);
+    padding: 10px 10px;
+    color: black;
+    border-radius: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.DO1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.DO2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+.DO3 > p{
+    font-size: 0.5rem;
+    margin: 0;
+}
+.DO3 > h4{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.Iconstore{
+    width: 20px;
+    height: 20px;
+}
+.F9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-top: 1.5px solid rgb(211, 161, 22);
+    width: 100%;
+    margin-top: 10px;
+}
+@media screen and (max-width:1300px) and (min-width:1000px){
+    .F21 > h1{
+        font-size: 2rem;
+    }
+    .F21 >p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:999px){
+    .F2{
+        flex-direction: column;
+    }
+    .F21 > h1{
+        font-size: 2rem;
+    }
+    .F21 >p{
+        font-size: 1rem;
+    }
+    .F23 > label{
+        font-size: 1.3rem;
+    }
+    .F24{
+        font-size: 0.96rem;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .F4{
+        display: flex;
+        flex-direction: column;
+    }
+    .F41{
+        border-right: none;
+    }
+    .F45{
+        display: flex;
+        flex-direction: column;
+    }
+}
