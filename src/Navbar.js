@@ -12,7 +12,15 @@ function Navbar() {
     <>
       <div className="NB1">
         <div>
-          <FaCameraRetro className="NBLogo" />
+        <Link
+            to="/"
+            style={{
+              textDecoration: "none",
+              fontSize: "0.5rem",
+              color: "black",
+            }}
+          ><FaCameraRetro className="NBLogo" />
+          </Link>
         </div>
         <div className="NBItems">
         <Link
@@ -70,8 +78,7 @@ function MobileMenu() {
             to="/autoslider"
             style={{
               textDecoration: "none",
-              fontSize: "0.5rem",
-              color: "black",
+              color: "white",
             }}
           >
             <h1 className="MMh1">Features</h1>
@@ -80,8 +87,7 @@ function MobileMenu() {
             to="/discover"
             style={{
               textDecoration: "none",
-              fontSize: "0.5rem",
-              color: "black",
+              color: "white",
             }}
           >
             <h1>Discover</h1>
@@ -91,8 +97,7 @@ function MobileMenu() {
             to="/marque"
             style={{
               textDecoration: "none",
-              fontSize: "0.5rem",
-              color: "black",
+              color:'white'
             }}
           >
             <h1>Blogs</h1>
